@@ -17,7 +17,7 @@ public class Instantiation implements CommandLineRunner {
 	
 	@Override
 	public void run(String... args) throws Exception {
-		//instancia os objetos para testar banco de dados
+	
 		userRepository.deleteAll();
 		
 		User maria = new User(null, "Maria Brown", "maria@gmail.com");
